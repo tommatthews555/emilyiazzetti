@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Emily Iazzetti, Waco ISD Candidate</title>
 </head>
-<body class="f1">
+<body class="f-gotham">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md bg-light text-dark navbar-light py-0">
+    <nav class="navbar navbar-expand-md bg-light text-dark navbar-light py-0" style="font-size: 1.2em">
         <div class="container">
-            <a href="#" class="navbar-brand text-dark font-weight-bold">
-                <div class="d-inline-block" style="width: 12em">                
-                    <img class="img-fluid d-inline-block d-sm-block" src="img/logo.jpg" alt="">
+            <a href="/index.html" class="navbar-brand text-dark font-weight-bold">
+                <div class="d-inline-block">  
+                    <span class="f-garlic c-purple" style="font-size: 1.4em">iazzetti</span>  
+                    <span>&nbsp;for district 5</span>              
+                    <!-- <img class="img-fluid d-inline-block d-sm-block" src="img/iazzetti_purple.jpg" alt=""> -->
                 </div>
             </a>
             <button 
@@ -30,70 +32,70 @@
             <div class="collapse navbar-collapse py-0 align-middle " id="navmenu">
                 <ul class="ml-auto text-dark navbar-nav text-right">
                     <li class="nav-item text-dark">
-                        <a href="#mission" class="nav-link text-dark">Mission</a>
+                        <a href="#mission" class="nav-link text-dark" style="font-size: 0.9em">Mission</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link text-dark">About</a>
+                        <a href="#about" class="nav-link text-dark" style="font-size: 0.9em">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/beta.html" class="nav-link text-dark">Contact</a>
+                        <a href="/beta.html" class="nav-link text-dark" style="font-size: 0.9em">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#getinvolved" class="nav-link text-dark">Get Involved</a>
+                        <a href="#getinvolved" class="nav-link text-dark" style="font-size: 0.9em">Get Involved</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <hr class="bg-light">
+
     <!-- Showcase -->
-    <section class="bg-light text-dark px-2 py-2 text-center">
-        <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <h1 class="px-5 display-5">Meet Emily Iazzetti</h1>
-                    <p class="px-3">Emily is a loyal and involved Wacoan; etc. etc. etc.; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae est aut sit? Molestiae fugit quae earum distinctio accusamus hic incidunt ratione possimus molestias aliquid? Asperiores? 
-                    </p>
-                    <button class="btn btn-secondary btn-lg">Learn more about Emily</button>
-                </div>
-                <img class="img-fluid w-50 d-none d-sm-block d-md-block" src="img/radio.jpg" alt="">
+    <section class="container bg-light text-dark px-2 py-2 text-center">
+        <div class="d-md-flex align-items-center justify-content-between">
+            <div class="col-md-5 style="font-size: 1em">
+                <h1 class="px-3 ">Meet Emily Iazzetti</h1>
+                <p class="px-3" style="font-size: 0.8em">Emily is a loyal and involved Wacoan; etc. etc. etc.; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae est aut sit? Molestiae fugit quae earum distinctio accusamus hic incidunt ratione possimus molestias aliquid? Asperiores? 
+                </p>
+                <button class="btn btn-secondary btn-md">Learn more about Emily</button>
             </div>
+            <img class="col-md-7 img-fluid py-2" src="img/radio.jpg" alt="">
         </div>
     </section>
 
     <!-- Cards -->
-    <section class="bg-secondary text-light p-3">
-        <div class="container">
+
+    <section class="text-dark">
+        <div class="bg-ltgray container">
             <div class="d-md-flex justify-content-between align-items-center">
-                <h2 class="mb-4 mb-md-0 mx-auto py-3 ">Priorities</h2>
+                <h2 class="mb-md-0 mx-auto text-center py-2">Priorities</h2>
             </div>
-            <div class="row d-md-flex justify-content-between align-items-center">
-                <div class="col-md-4">
-                    <div class="card bg-warning text-dark">
+            <div class="row d-md-flex">
+                <div class="col-md-4 py-2">
+                    <div class="card  h-100 bg-secondary text-light">
                         <div class="card-body text-center">
-                            <i class="h1 mb-3 bi bi-book"></i>
-                            <img><!-- <i class="h1 mb-3 bi bi-mortarboard-fill"></i> -->
-                            <h3 class="card-title mb-3">Empowering Kids</h3>
+                            <i class="h1 bi bi-book"></i>
+                            <h4 class="card-title">Empowering Kids</h4>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, tenetur.</p>
-                            <a href="#empoweringkids" class="btn btn-secondary">Read More</a>
+                            <a href="#empoweringkids" class="btn btn-secondary bg-purple">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card bg-info text-light">
+                <div class="col-md-4 py-2">
+                    <div class="card  h-100 bg-purple text-light">
                         <div class="card-body text-center">
-                            <i class="h1 mb-3 bi bi-clipboard-check"></i>
-                            <h3 class="card-title mb-3">Action</h3>
+                            <i class="h1 bi bi-clipboard-check"></i>
+                            <h4 class="card-title">Action</h4>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, tenetur.</p>
                             <a href="#action" class="btn btn-secondary">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card bg-light text-dark">
+                <div class="col-md-4 py-2">
+                    <div class="card  h-100 bg-light text-dark">
                         <div class="card-body text-center">
-                            <i class="h1 mb-3 bi bi-people"></i>
-                            <h3 class="card-title mb-3">Engagement</h3>
+                            <i class="h1 bi bi-people"></i>
+                            <h4 class="card-title">Engagement</h4>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, tenetur.</p>
                             <a href="#engagement" class="btn btn-secondary">Read More</a>
                         </div>
@@ -103,12 +105,52 @@
         </div>
     </section>
 
+    <!-- font examples-->
+
+    <section class="container bg-ltgray  text-dark p-2 text-center">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <table class="center" style="width:95%">
+                <tr>
+                    <th class="text-right px-4"><h3>Font info</h3></th>
+                    <th style="width:60%" class="text-left"><h3>Example</h3></th>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Garlic Regular</td>
+                    <td class="f-garlic text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Garlic Bold</td>
+                    <td class="f-garlic text-left"><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b></td>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Garlic  Italic</td>
+                    <td class="f-garlic text-left"><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i></td>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Garlic Bold Italic</td>
+                    <td class="f-garlic text-left"><i><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b></i></td>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Gotham Bold </td>
+                    <td class="text-left w-thick" font-weight="9"><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b></td>
+                </tr>
+                <tr>
+                    <td class="text-right px-4">Gotham Bold Italic</td>
+                    <td class="text-left"><i><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b></i></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    
+
     <!-- Footer -->
     
-    <section class="bg-light text-light p-3">
-        <div class="container">
-            <div class="d-md-flex justify-content-between">
-                <h5 class="mb-5 mb-md-0 py-3"><a class="text-secondary" href=index.html>Return to home page</a></h5>
+    <section class="p-3 bg-purple">
+        <div class="container bg-purple">
+            <div class="d-md-flex justify-content-between bg-purple">
+                <h5 class="mb-5 mb-md-0 py-3"><a class="text-white" href=index.html>Return to home page</a></h5>
             </div>
         </div>
     </section>

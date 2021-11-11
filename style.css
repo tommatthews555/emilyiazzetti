@@ -5,9 +5,30 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .f1 {font-family: "garlicsans"}
-  .f2 {font-family: "Lucida Console"}
   @font-face {
     font-family: garlicsans;
-    src: url(font/Garlic-Sans-Regular.ttf);
+    src: url(font/garlic/Garlic-Sans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: gotham;
+    src: url(font/gotham/Gotham\ Bold.otf);
+  }
+
+  .f-garlic {font-family: "garlicsans"}
+  .f-gotham {font-family: "gotham"}
+  .c-purple {color: #522d72}
+  .c-white {color: #ffffff}
+  .c-red {color: #e40032}
+  .w-light{font-weight: light;}
+  .w-normal{font-weight: normal;}
+  .w-thick{font-weight: bold;}
+  .w-thicker{font-weight: 900;}
+  .bg-purple{background-color: #522d72;}
+  .bg-red{background-color: #e40032;}
+  .bg-ltgray{background-color: #c5c5c5;}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
   }
