@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
 hr {
     margin-top: 0rem;
     margin-bottom: 0rem;
