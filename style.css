@@ -1,4 +1,8 @@
 
+  @font-face {
+    font-family: garlic;
+    src: url(./font/garlic/Garlic-Sans-Regular.ttf);
+  }
   
   
 hr {
@@ -8,17 +12,13 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  @font-face {
-    font-family: garlicsans;
-    src: url(font/garlic/Garlic-Sans-Regular.ttf) format('tff');
-  }
 
   @font-face {
     font-family: gotham;
     src: url(font/gotham/Gotham\ Bold.otf);
   }
 
-  .f-garlic {font-family: "garlicsans"}
+  .f-garlic {font-family: "garlic"}
   .f-gotham {font-family: "gotham"}
   .c-white {color: #ffffff}
   .c-red {color: #e40032}
