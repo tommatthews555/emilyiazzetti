@@ -1,13 +1,6 @@
 
-  .c-purple {color: #522d72}
   
-  * {
-  margin: 0px;
-  padding: 0px;
-  max-width: 100%;
-  box-sizing: border-box;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
+  
 hr {
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -29,6 +22,7 @@ hr {
   .f-gotham {font-family: "gotham"}
   .c-white {color: #ffffff}
   .c-red {color: #e40032}
+  .c-purple {color: #522d72}
   .w-light{font-weight: light;}
   .w-normal{font-weight: normal;}
   .w-thick{font-weight: bold;}
@@ -40,4 +34,11 @@ hr {
   .center {
     margin-left: auto;
     margin-right: auto;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
