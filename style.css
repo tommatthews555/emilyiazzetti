@@ -1,4 +1,7 @@
-* {
+
+  .c-purple {color: #522d72}
+  
+  * {
   margin: 0px;
   padding: 0px;
   max-width: 100%;
@@ -24,7 +27,6 @@ hr {
 
   .f-garlic {font-family: "garlicsans"}
   .f-gotham {font-family: "gotham"}
-  .c-purple {color: #522d72}
   .c-white {color: #ffffff}
   .c-red {color: #e40032}
   .w-light{font-weight: light;}
