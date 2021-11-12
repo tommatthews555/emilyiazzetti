@@ -14,7 +14,7 @@ hr {
 
   @font-face {
     font-family: garlicsans;
-    src: url(font/garlic/Garlic-Sans-Regular.ttf);
+    src: url(font/garlic/Garlic-Sans-Regular.ttf) format('tff');
   }
 
   @font-face {
