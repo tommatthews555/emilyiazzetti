@@ -4,6 +4,26 @@
     src: url(./font/garlic/Garlic-Sans-Regular.ttf);
   }
   
+  .fixednav
+  {
+    position:sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+  }
+  .fixednavbottom
+  {
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
   
 hr {
     margin-top: 0rem;
