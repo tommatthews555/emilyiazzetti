@@ -3,7 +3,13 @@
     font-family: garlic;
     src: url(./font/garlic/Garlic-Sans-Regular.ttf);
   }
-  
+
+  .a
+  {
+    text-decoration:none;
+   border:none;
+  }
+
   .fixednav
   {
     position:sticky;
